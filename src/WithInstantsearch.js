@@ -91,7 +91,7 @@ function WithInstantsearch({ children }) {
 
     stateMapping: {
       stateToRoute(uiState) {
-        const indexUiState = uiState["instant_search"] || {}
+        const indexUiState = uiState[index] || {}
 
         return {
           query: indexUiState.query,
