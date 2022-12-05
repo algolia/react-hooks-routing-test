@@ -1,19 +1,19 @@
 // React related
-import { Suspense } from "react"
+import { Suspense } from 'react'
 
 // Routing
-import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 // Algolia
-import WithInstantsearch from "./WithInstantsearch"
+import WithInstantsearch from './WithInstantsearch'
 
 // Pages
-import SearchPage from "./SearchPage"
+import SearchPage from './SearchPage'
 
 function Main() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: '/',
       element: (
         <Suspense fallback={<></>}>
           <SearchPage />
