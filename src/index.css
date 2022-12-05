@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.srp {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.hits {
+  width: 80vw;
+}
+.srp .facets {
+  min-width: 20vw;
+}
