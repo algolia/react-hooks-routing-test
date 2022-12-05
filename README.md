@@ -15,5 +15,5 @@ https://www.algolia.com/doc/guides/building-search-ui/going-further/routing-urls
 
 ## How to use
 
-Click a refinement then refresh the page
-Note the refinement is gone from the URL
+- Click a brand refinement then refresh the page
+- Note the refinement is gone from the URL
