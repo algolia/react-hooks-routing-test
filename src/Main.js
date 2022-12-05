@@ -2,7 +2,7 @@
 import { Suspense } from "react"
 
 // Routing
-import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom"
 
 // Algolia
 import WithInstantsearch from "./WithInstantsearch"
@@ -12,6 +12,10 @@ import SearchPage from "./SearchPage"
 
 function Main() {
   const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Navigate to="/search" replace />,
+    },
     {
       path: "/search",
       element: (
